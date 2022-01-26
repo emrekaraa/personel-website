@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../Components/NavBar';
 import '../Styles/Hero.css'
+import '../Styles/Components/Button.css'
 
 const Hero = () => {
     return (
@@ -10,16 +11,17 @@ const Hero = () => {
 
             <div className="hero-container">
 
-                <div className='flex flex-col'>
-                    <h4 className='text-textColor2 text-2xl'><span className='heymoji'> 👋🏼 </span> Hey there! My name is</h4>
-                    <h2 className='text-6xl font-bold'>Emre Kara.</h2>
-                    <h3 className='text-3xl text-textColor3'>I build beautiful things for the web!</h3>
-                    <p>I'm a freshly graduated Frontend Developer who builds interfaces for users to have great experiences, <br />trying to improve himself on the web and enjoys it.</p>
-                    <button>Check out my resume!</button>
+                <div className='hero-content'>
+                    <h4 className='text-textColor2 text-xl font-semibold flex items-center mt-3'><span className='heymoji text-3xl'> 👋🏼 </span> Hey there! My name is</h4>
+                    <h2 className='text-6xl font-semibold my-3'>Emre Kara</h2>
+                    <h3 className='text-3xl text-textColor3'>I'm a passionate Frontend Developer!</h3>
+                    <p className='mt-4 w-11/12 md:w-9/12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi cupiditate hic dignissimos nobis totam accusantium, eos, natus sunt error suscipit ipsa magni aut velit esse fugit laborum architecto unde corrupti!</p>
+
+                    <button className='btn btn__cta'> <a href="#">Check out my resume!</a> </button>
                 </div>
 
                 <div className="hero-image">
-                    <img className='rounded-full w-52 lg:w-60' src="https://avatars.githubusercontent.com/u/83719052?v=4" alt="avatar" />
+                    <img className='rounded-full w-48 lg:w-9/12 border-2 p-1' src="https://avatars.githubusercontent.com/u/83719052?v=4" alt="avatar" />
                 </div>
 
             </div>

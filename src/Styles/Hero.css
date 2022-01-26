@@ -14,11 +14,22 @@
 
 }
 
+
+.hero-content{
+ @apply 
+ flex 
+ flex-col 
+ items-center 
+ text-center 
+ lg:items-start 
+ lg:text-left
+}
+
 .heymoji {
-    padding-right: 0.25rem;
+    padding-right: .4rem;
     transform-origin: 70% 70%;
     display: inline-block;
-    animation: wave-animation 2.5s 0.8s infinite;
+    animation: wave-animation 2s 0.8s infinite;
   }
 
   @keyframes wave-animation {

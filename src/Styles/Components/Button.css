@@ -1,0 +1,24 @@
+.btn {
+    border-radius: 6px;
+    line-height: 1;
+    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out, transform 300ms ease-in-out;
+    margin-top: 2rem;
+
+}
+.btn__cta {
+    border: 1px solid #adefec;
+    font-size: 0.9rem;
+}
+.btn__cta a {
+    color: gainsboro;
+    display: block;
+    padding: 1.25rem 1.75rem;
+    letter-spacing: 1px;
+}
+.btn__cta:hover {
+    background: #272d3d;
+    box-shadow: 0 1px 8px rgba(135, 155, 245, 0.3);
+}
+.btn__cta:active {
+    transform: translateY(5px);
+}

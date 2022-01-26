@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import menu4 from 'react-useanimations/lib/menu4';
+import menu from 'react-useanimations/lib/menu';
 import UseAnimations from 'react-useanimations';
 import { Link } from 'react-scroll';
 import "../Styles/Navbar.css"
@@ -16,7 +16,7 @@ const NavBar = () => {
             <nav className='flex items-center'>
 
                 <button onClick={handleClick}>
-                    <UseAnimations animation={menu4} size={32} strokeColor="white" />
+                    <UseAnimations speed={1.3} animation={menu} size={38} strokeColor="white" />
                 </button>
 
                 <ul className={`${show ? "items-show" : "items"}`}>
