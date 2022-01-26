@@ -20,8 +20,8 @@ const Hero = () => {
                     <button className='btn btn__cta'> <a href="#">Check out my resume!</a> </button>
                 </div>
 
-                <div className="hero-image">
-                    <img className='rounded-full w-48 lg:w-9/12 border-2 p-1' src="https://avatars.githubusercontent.com/u/83719052?v=4" alt="avatar" />
+                <div className='avatar'>
+                    <img className='rounded-full w-48 lg:w-9/12 p-2 border lg:border-none ' src="https://avatars.githubusercontent.com/u/83719052?v=4" alt="avatar" />
                 </div>
 
             </div>

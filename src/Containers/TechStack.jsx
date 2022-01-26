@@ -2,10 +2,10 @@ import React from 'react';
 
 const TechStack = () => {
     return (
-        <devicePixelRatio id='tech-stack'>
+        <div id='tech-stack'>
             <h1>TechStack</h1>
 
-        </devicePixelRatio>)
+        </div>)
 };
 
 export default TechStack;
