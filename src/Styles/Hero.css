@@ -1,0 +1,49 @@
+.hero-container{
+    @apply
+    flex 
+    flex-col-reverse 
+    items-center 
+    justify-end
+    pt-20 
+    h-5/6 
+
+
+    lg:pt-0
+    lg:flex-row 
+    lg:justify-between 
+
+}
+
+.heymoji {
+    padding-right: 0.25rem;
+    transform-origin: 70% 70%;
+    display: inline-block;
+    animation: wave-animation 2.5s 0.8s infinite;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }

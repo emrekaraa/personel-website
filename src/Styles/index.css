@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root,
+#root,
+#docs-root {
+  --primary: #1e222f;
+  --secondary: #181b27;
+  --textColor1: #e8e8e8;
+  --textColor2: #98b4d4;
+  --textColor3: #adefd1;
+  --textColor4: #ee944b;
+  --textColor5: #1ce783;
+  --textColor6: #c475d4;
+  --textColor7: #fcc7c7;
+
+  @apply 
+  bg-primary
+  text-textColor1
+}
+
+
+
+
+

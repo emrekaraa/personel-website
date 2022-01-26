@@ -1,0 +1,36 @@
+.items {
+    display: flex;
+    transition: visibility 350ms ease, opacity 400ms ease, transform 500ms ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transform: translateX(-15px);
+}
+
+.items-show{
+        display: flex;
+        opacity: 1;
+        visibility: visible;
+        overflow: hidden;
+        transform: translateX(15px);
+        transition: visibility 350ms ease, opacity 400ms ease, transform 500ms ease-in-out;
+}
+
+header{
+    @apply
+     h-16 
+     pl-5
+     flex 
+     items-center 
+     bg-secondary 
+     fixed 
+     w-full 
+    text-lg
+    font-semibold
+
+     md:h-20
+     md:bg-transparent 
+     md:static 
+     md:pl-0
+     md:w-auto
+ }
