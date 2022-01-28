@@ -10,6 +10,10 @@
     lg:pt-0
     lg:flex-row 
     lg:justify-between 
+
+    container 
+    lg:px-48 
+
 }
 
 .hero-content{
@@ -93,7 +97,7 @@
     opacity: .1;
     position: absolute;
     top: -25%;
-    transform: scale(0.700);
+    transform: scale(0.670);
     width: 110%;
     left: -18%;
   }

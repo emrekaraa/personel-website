@@ -16,7 +16,6 @@
   --textColor7: #fcc7c7;
 
   @apply 
-  bg-primary
   text-textColor1
 }
 

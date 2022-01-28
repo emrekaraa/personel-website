@@ -3,6 +3,7 @@
     line-height: 1;
     transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out, transform 300ms ease-in-out;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 .btn__cta {

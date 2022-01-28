@@ -1,0 +1,27 @@
+.tech-items{
+   @apply 
+   flex 
+   flex-wrap 
+   mt-3 
+   mx-auto 
+   justify-center 
+   w-full
+
+   md:w-9/12
+}
+.tech-item{
+    @apply 
+    flex 
+    items-center 
+    justify-center 
+    text-lg 
+    py-2 
+    border 
+    rounded-lg 
+    m-3 
+    cursor-pointer 
+    w-32
+
+    md:w-52
+    hover:bg-primary
+}
