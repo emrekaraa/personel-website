@@ -22,6 +22,8 @@
  lg:text-left
 }
 
+/* Hey Emoji Animation */
+
 .heymoji {
     padding-right: .4rem;
     transform-origin: 70% 70%;
@@ -56,6 +58,8 @@
     }
   }
 
+  /* Avatar image animation */
+
   @media only screen and (max-width: 1025px) {
     .avatar::before,
     .avatar::after {
@@ -65,12 +69,17 @@
 
   .avatar {
     position: relative;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
   
   @keyframes pulse {
     to {
       opacity: 0;
-      transform: scale(1.1);
+      transform: scale(1);
     }
   }
   

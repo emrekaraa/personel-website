@@ -5,6 +5,7 @@
     overflow: hidden;
     visibility: hidden;
     transform: translateX(-15px);
+
 }
 
 .items-show{
@@ -18,19 +19,20 @@
 
 header{
     @apply
-     h-16 
-     pl-5
-     flex 
-     items-center 
-     bg-secondary 
-     fixed 
-     w-full 
+    h-16 
+    pl-5
+    flex 
+    items-center 
+    bg-secondary 
+    fixed 
+    w-full 
     text-lg
     font-semibold
+    z-10
 
-     md:h-20
-     md:bg-transparent 
-     md:static 
-     md:pl-0
-     md:w-auto
+    md:h-20
+    md:bg-transparent 
+    md:static 
+    md:w-auto
+    lg:pl-0
  }
