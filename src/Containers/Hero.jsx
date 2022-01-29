@@ -8,6 +8,8 @@ import Flip from 'react-reveal/Fade';
 import { Zoom } from 'react-reveal';
 import ScrollUp from '../Components/ScrollUp';
 
+import Button from '../Components/Button';
+
 
 const Hero = () => {
     return (
@@ -30,7 +32,7 @@ const Hero = () => {
                         <p className='mt-4 w-11/12 md:w-9/12'>🌱 I’m currently learning everything about frontend. <br /> 🧐 I'm a selft-taught learner. <br /> ❤️ I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. </p>
                     </Zoom >
                     <Flip right delay={400} duration={1500}>
-                        <button className='btn btn__cta flex justify-center items-center'> <a href="https://drive.google.com/file/d/1rhTj5MtokI86dcK7M8y1hmTayrIX_1JG/view?usp=sharing" target={"_blank"}> <span className='text-xl'> 🖨 </span>Checkout my resume!</a> </button>
+                        <Button> <a href="https://drive.google.com/file/d/1rhTj5MtokI86dcK7M8y1hmTayrIX_1JG/view?usp=sharing" target={"_blank"}> <span className='text-xl'> 🖨 </span>Checkout my resume!</a> </Button>
                     </Flip>
                 </div>
                 <Zoom duration={1500}>
