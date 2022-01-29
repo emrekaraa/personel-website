@@ -1,7 +1,8 @@
 // Css
 import '../Styles/Containers/TechStack.css';
 // Animations
-import Fade from 'react-reveal/Fade';
+import { JackInTheBox } from "react-awesome-reveal";
+
 // Icons
 import {
     IoLogoJavascript,
@@ -18,7 +19,7 @@ const TechStack = () => {
             <div className='container lg:px-48 py-14'>
                 <h2 className='text-4xl text-textColor2 font-bold text-center'>Tech Stack</h2>
                 <ul className='tech-items'>
-                    <Fade left delay={250} duration={1200}>
+                    <JackInTheBox triggerOnce duration={1000}>
                         <li className='tech-item'><span><IoLogoHtml5 className='text-red-500 mr-2' /></span>HTML5</li>
                         <li className='tech-item'><span><IoLogoCss3 className='text-blue-400 mr-2' /></span>CSS3</li>
                         <li className='tech-item'><span><IoLogoSass className='text-pink-400 mr-2' /></span>Sass</li>
@@ -28,7 +29,7 @@ const TechStack = () => {
                         <li className='tech-item'><span><IoLogoJavascript className='text-yellow-300 mr-2' /></span>JavaScript</li>
                         <li className='tech-item'><span><IoLogoReact className='text-blue-400 mr-2' /></span>ReactJs</li>
                         <li className='tech-item'><span><SiRedux className='text-purple-500 mr-2' /></span>Redux</li>
-                    </Fade>
+                    </JackInTheBox>
                 </ul>
             </div>
         </div>)
