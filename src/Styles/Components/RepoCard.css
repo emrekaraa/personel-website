@@ -1,0 +1,41 @@
+.repo-card{
+    @apply 
+ 
+   
+    w-11/12
+    mx-2
+    my-3
+    bg-transparent 
+    border 
+    rounded 
+    px-8
+    py-4
+    flex-auto
+    md:w-5/12
+
+    hover:bg-slate-800
+}
+
+.circle{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    margin-right: 5px;
+}
+
+.topic{
+   
+    background-color: rgb(4, 102, 116);
+
+   @apply 
+   text-xs 
+   mr-1 
+   mb-1 
+   px-1 
+   py-0.5 
+   border 
+   rounded-lg
+   font-semibold 
+  
+}

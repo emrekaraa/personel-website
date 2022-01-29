@@ -20,9 +20,9 @@ const NavBar = () => {
                     <UseAnimations speed={1.3} animation={menu} size={38} strokeColor="white" />
                 </button>
                 <ul className={`${show ? "items-show" : "items"}`}>
-                    <li className='mr-2'><Link className='cursor-pointer' to={"tech-stack"} spy={true} offset={-50} smooth={true} duration={500}>Tech-Stack</Link></li>
-                    <li className='mx-2'><Link className='cursor-pointer' to={"projects"} spy={true} offset={-50} smooth={true} duration={500}>Projects</Link></li>
-                    <li className='mx-2'><Link className='cursor-pointer' to={"contact"} spy={true} offset={-50} smooth={true} duration={500}>Contact</Link></li>
+                    <li className='mr-2'><Link className='cursor-pointer' to={"tech-stack"} spy={true} offset={-50} smooth={true} duration={1000}>Tech-Stack</Link></li>
+                    <li className='mx-2'><Link className='cursor-pointer' to={"projects"} spy={true} offset={-50} smooth={true} duration={1000}>Projects</Link></li>
+                    <li className='mx-2'><Link className='cursor-pointer' to={"contact"} spy={true} offset={-50} smooth={true} duration={1000}>Contact</Link></li>
                 </ul>
             </nav>
         </header>

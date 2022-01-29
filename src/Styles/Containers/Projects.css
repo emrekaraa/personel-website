@@ -1,0 +1,13 @@
+.projects-container{
+    @apply 
+    container 
+    py-10 
+    px-4 
+    lg:px-48
+}
+
+.repos{
+    @apply 
+    flex 
+    flex-wrap
+}

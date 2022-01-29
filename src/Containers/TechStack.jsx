@@ -15,8 +15,8 @@ import { SiTailwindcss, SiBootstrap, SiJquery, SiRedux } from 'react-icons/si'
 const TechStack = () => {
     return (
         <div className='bg-secondary' id='tech-stack'>
-            <div className='container lg:px-48 py-10'>
-                <h1 className='text-4xl text-textColor2 font-bold text-center'>Tech Stack</h1>
+            <div className='container lg:px-48 py-14'>
+                <h2 className='text-4xl text-textColor2 font-bold text-center'>Tech Stack</h2>
                 <ul className='tech-items'>
                     <Fade left delay={250} duration={1200}>
                         <li className='tech-item'><span><IoLogoHtml5 className='text-red-500 mr-2' /></span>HTML5</li>

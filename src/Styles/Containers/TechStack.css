@@ -18,10 +18,10 @@
     py-2 
     border 
     rounded-lg 
-    m-3 
+    m-3
     cursor-pointer 
     w-32
 
-    md:w-52
+    md:w-48
     hover:bg-primary
 }
