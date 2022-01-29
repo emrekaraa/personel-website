@@ -34,7 +34,6 @@ const Projects = () => {
                 </div>
 
                 <div className="repos">
-
                     {data?.filter(
                         x =>
                             x.id === 442891439 ||
@@ -44,13 +43,10 @@ const Projects = () => {
                             x.id === 437356394 ||
                             x.id === 422259079,
                     ).map(repo => (
-
-                        < RepoCard key={repo.id} name={repo.name} desc={repo.description} url={repo.html_url} stars={repo.stargazers_count} language={repo.language} forks={repo.forks_count} topics={repo.topics} />
+                        <RepoCard key={repo.id} name={repo.name} desc={repo.description} url={repo.html_url} stars={repo.stargazers_count} language={repo.language} forks={repo.forks_count} topics={repo.topics} />
                     ))}
-
-
-
                 </div>
+
             </div>
         </div>
     )

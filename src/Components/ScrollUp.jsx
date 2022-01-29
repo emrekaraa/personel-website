@@ -17,7 +17,7 @@ const ScrollUp = () => {
 
     return (
         <>
-            {showScroll && <Link href='#header' className='hidden md:block fixed bottom-10 right-14 border-2 rounded-full p-1' to={"header"} spy={true} hashSpy={"projects"} smooth={true} duration={1000}>
+            {showScroll && <Link href='#header' className='hidden md:block fixed bottom-10 right-14 border-2 rounded-full p-1' to={"header"} smooth={true} duration={1000}>
                 <UseAnimations animation={ArrowUp} size={26} strokeColor="white" autoPlay={true} loop={true} />
             </Link>}
 

@@ -5,9 +5,9 @@ import { BiGitRepoForked } from 'react-icons/bi';
 import { AiOutlineStar } from 'react-icons/ai';
 import { GoLinkExternal } from 'react-icons/go';
 //Animations
-import { Fade } from 'react-reveal';
 import UseAnimations from "react-useanimations";
 import github from 'react-useanimations/lib/github';
+import Fade from 'react-reveal';
 
 const RepoCard = ({ name, desc, url, stars, language, forks, topics }) => {
 
@@ -18,7 +18,7 @@ const RepoCard = ({ name, desc, url, stars, language, forks, topics }) => {
                     <h3 className={`text-lg font-bold flex items-center text-textColor4`}>{name} <span className='ml-2'><GoLinkExternal /></span></h3>
                     <p className='text-sm mt-2'>{desc}</p>
                     <div className='mt-2 flex flex-wrap'>{topics.map((topic) => {
-                        return <span className='topic'>{topic}</span>
+                        return <span key={topic} className='topic'>{topic}</span>
                     })}</div>
 
                     <div div className='flex items-center mt-10'>
@@ -34,6 +34,7 @@ const RepoCard = ({ name, desc, url, stars, language, forks, topics }) => {
                     </div>
                 </a>
             </Fade>
+
         </>
     )
 };
