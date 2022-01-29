@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import { BiLinkExternal } from "react-icons/bi";
-import RepoCard from '../Components/RepoCard';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
+//Icons
+import { BiLinkExternal } from "react-icons/bi";
+//Components
+import RepoCard from '../Components/RepoCard';
+//Css
 import '../Styles/Containers/Projects.css';
 
 
@@ -14,10 +17,12 @@ const Projects = () => {
         setData(response.data);
     }
 
+
+
+
     useEffect(() => {
         getData();
     }, [])
-
 
 
     return (
@@ -39,7 +44,8 @@ const Projects = () => {
                             x.id === 437356394 ||
                             x.id === 422259079,
                     ).map(repo => (
-                        <RepoCard key={repo.id} id={repo.id} name={repo.name} desc={repo.description} url={repo.html_url} stars={repo.stargazers_count} language={repo.language} forks={repo.forks_count} topics={repo.topics} />
+
+                        < RepoCard key={repo.id} name={repo.name} desc={repo.description} url={repo.html_url} stars={repo.stargazers_count} language={repo.language} forks={repo.forks_count} topics={repo.topics} />
                     ))}
 
 

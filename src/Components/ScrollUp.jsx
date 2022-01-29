@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+//Animations
 import UseAnimations from 'react-useanimations';
 import ArrowUp from 'react-useanimations/lib/arrowUp';
 
@@ -13,8 +14,6 @@ const ScrollUp = () => {
             window.pageYOffset > 300 ? setShowScroll(true) : setShowScroll(false);
         });
     }, []);
-
-
 
     return (
         <>

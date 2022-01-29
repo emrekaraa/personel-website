@@ -3,13 +3,11 @@ import '../Styles/Containers/Hero.css'
 import '../Styles/Components/Button.css'
 //Components
 import NavBar from '../Components/NavBar';
+import Button from '../Components/Button';
 //Animations
 import Flip from 'react-reveal/Fade';
 import { Zoom } from 'react-reveal';
 import ScrollUp from '../Components/ScrollUp';
-
-import Button from '../Components/Button';
-
 
 const Hero = () => {
     return (

@@ -1,19 +1,21 @@
-import React from 'react';
+//Css
 import '../Styles/Components/RepoCard.css';
+//Icons
 import { BiGitRepoForked } from 'react-icons/bi';
 import { AiOutlineStar } from 'react-icons/ai';
 import { GoLinkExternal } from 'react-icons/go';
+//Animations
 import { Fade } from 'react-reveal';
 import UseAnimations from "react-useanimations";
 import github from 'react-useanimations/lib/github';
 
-const RepoCard = ({ id, name, desc, url, stars, language, forks, topics }) => {
+const RepoCard = ({ name, desc, url, stars, language, forks, topics }) => {
 
     return (
         <>
             <Fade left duration={1200}>
                 <a href={`${url}`} className='repo-card'>
-                    <h3 className='text-lg font-bold flex items-center'>{name} <span className='ml-2'><GoLinkExternal /></span></h3>
+                    <h3 className={`text-lg font-bold flex items-center text-textColor4`}>{name} <span className='ml-2'><GoLinkExternal /></span></h3>
                     <p className='text-sm mt-2'>{desc}</p>
                     <div className='mt-2 flex flex-wrap'>{topics.map((topic) => {
                         return <span className='topic'>{topic}</span>
