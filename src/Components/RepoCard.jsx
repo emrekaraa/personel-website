@@ -20,7 +20,7 @@ const RepoCard = ({ name, desc, url, stars, language, forks, topics }) => {
                 })}</div>
 
                 <div className='flex items-center mt-10'>
-                    <p className='flex items-center mr-2.5'><span className={`circle ${language == "JavaScript" ? "bg-yellow-400" : language == "CSS" || "SCSS" ? "bg-pink-500" : "bg-blue-500"}`}></span>{language}</p>
+                    <p className='flex items-center mr-2.5'><span className={`circle ${language === "JavaScript" ? "bg-yellow-400" : language === "CSS" || "SCSS" ? "bg-pink-500" : "bg-blue-500"}`}></span>{language}</p>
                     <span className='flex items-center mr-2.5'><span className='mr-0.5'><AiOutlineStar /></span>{stars}</span>
                     <span className='flex items-center mr-2.5'><span className='mr-0.5'><BiGitRepoForked /></span>{forks}</span>
 

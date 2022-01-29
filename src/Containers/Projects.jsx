@@ -31,7 +31,7 @@ const Projects = () => {
             <div className='projects-container'>
                 <div className='flex justify-between'>
                     <h2 className='text-4xl text-textColor2 font-bold text-center mb-3'>Projects </h2>
-                    <a href="https://github.com/emrekaraa" target={"_blank"} className='flex items-center text-textColor1'>See more <BiLinkExternal className='ml-2' /></a>
+                    <a href="https://github.com/emrekaraa" target="_blank" rel="noreferrer" className='flex items-center text-textColor1'>See more <BiLinkExternal className='ml-2' /></a>
                 </div>
                 <Slide triggerOnce>
                     <div className="repos">
