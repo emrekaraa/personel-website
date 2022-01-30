@@ -25,7 +25,7 @@ const Hero = () => {
                     </Zoom >
                     <Zoom triggerOnce duration={1500}>
 
-                        <p className='mt-4 w-11/12 md:w-9/12 mx-auto lg:mx-0'>🌱 I’m currently learning everything about frontend. <br /> 🧐 I'm a selft-taught learner. <br /> ❤️ I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. </p>
+                        <p className='mt-4 w-11/12 md:w-9/12 mx-auto lg:mx-0'>🌱 I’m currently learning everything about frontend. <br /> 🧐 I'm a selft-taught learner. <br /> ❤️ I'm passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. </p>
 
                     </Zoom >
                     <Fade triggerOnce direction='left' duration={1500}>
