@@ -15,7 +15,6 @@ import {
   SiTailwindcss,
   SiBootstrap,
   SiJquery,
-  SiRedux,
   SiNextdotjs,
 } from "react-icons/si";
 
