@@ -16,6 +16,7 @@ import {
   SiBootstrap,
   SiJquery,
   SiNextdotjs,
+  SiRedux,
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -80,6 +81,12 @@ const TechStack = () => {
                 <SiNextdotjs className="text-white mr-2 text-xl" />
               </span>
               NextJs
+            </li>
+            <li className="tech-item">
+              <span>
+                <SiRedux className="text-purple-400 mr-2 text-xl" />
+              </span>
+              Redux
             </li>
           </JackInTheBox>
         </ul>

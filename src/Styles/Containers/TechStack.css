@@ -1,17 +1,15 @@
-.tech-items{
-   @apply 
-   flex 
+.tech-items {
+  @apply flex 
    flex-wrap 
    mt-3 
    mx-auto 
    justify-center 
    w-full
 
-   md:w-9/12
+   md:w-9/12;
 }
-.tech-item{
-    @apply 
-    flex 
+.tech-item {
+  @apply flex 
     items-center 
     justify-center 
     text-lg 
@@ -23,5 +21,5 @@
     w-32
 
     md:w-48
-    hover:bg-primary
+    hover:bg-primary;
 }
