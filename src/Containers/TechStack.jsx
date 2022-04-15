@@ -17,6 +17,7 @@ import {
   SiJquery,
   SiNextdotjs,
   SiRedux,
+  SiTypescript
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -72,6 +73,12 @@ const TechStack = () => {
             </li>
             <li className="tech-item">
               <span>
+                <SiTypescript className="text-cyan-600 mr-2 text-xl" />
+              </span>
+              TypeScript
+            </li>
+            <li className="tech-item">
+              <span>
                 <IoLogoReact className="text-blue-400 mr-2" />
               </span>
               ReactJs
@@ -88,6 +95,7 @@ const TechStack = () => {
               </span>
               Redux
             </li>
+            
           </JackInTheBox>
         </ul>
       </div>
