@@ -17,7 +17,9 @@ import {
   SiJquery,
   SiNextdotjs,
   SiRedux,
-  SiTypescript
+  SiTypescript,
+  SiNodedotjs,
+  SiMongodb,
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -59,12 +61,7 @@ const TechStack = () => {
               </span>
               Tailwind
             </li>
-            <li className="tech-item">
-              <span>
-                <SiJquery className="text-orange-400 mr-2" />
-              </span>
-              jQuery
-            </li>
+
             <li className="tech-item">
               <span>
                 <IoLogoJavascript className="text-yellow-300 mr-2" />
@@ -81,7 +78,7 @@ const TechStack = () => {
               <span>
                 <IoLogoReact className="text-blue-400 mr-2" />
               </span>
-              ReactJs
+              React.js
             </li>
             <li className="tech-item">
               <span>
@@ -95,7 +92,18 @@ const TechStack = () => {
               </span>
               Redux
             </li>
-            
+            <li className="tech-item">
+              <span>
+                <SiNodedotjs className="text-green-400 mr-2 text-xl" />
+              </span>
+              Node.js
+            </li>
+            <li className="tech-item">
+              <span>
+                <SiMongodb className="text-green-400 mr-2 text-xl" />
+              </span>
+              MongoDb
+            </li>
           </JackInTheBox>
         </ul>
       </div>
