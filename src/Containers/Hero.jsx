@@ -29,7 +29,7 @@ const Hero = () => {
 
                     </Zoom >
                     <Fade triggerOnce direction='left' duration={1500}>
-                        <Button> <a href="https://drive.google.com/file/d/16h_sqhIn-SYCFB5HqPlmg3TYpTao_pZ9/view?usp=sharing" target="_blank" rel="noreferrer"> <span className='text-xl'> 🖨 </span>Checkout my resume!</a> </Button>
+                        <Button> <a href="hhttps://drive.google.com/file/d/1DszNWTmc2ZhX1ftL5rUPwuxR-px9BMgl/view?usp=sharing" target="_blank" rel="noreferrer"> <span className='text-xl'> 🖨 </span>Checkout my resume!</a> </Button>
                     </Fade>
                 </div>
                 <Zoom triggerOnce duration={1500}>
