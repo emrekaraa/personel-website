@@ -35,14 +35,15 @@ const Projects = () => {
                 </div>
                 <Slide triggerOnce>
                     <div className="repos">
+                        {console.log(data)}
                         {data?.filter(
                             x =>
-                                x.id === 442891439 ||
-                                x.id === 436012913 ||
-                                x.id === 434198125 ||
-                                x.id === 438756592 ||
-                                x.id === 437356394 ||
-                                x.id === 422259079,
+                                x.name === "github-finder-react" ||
+                                x.name === "e-commerce-nextjs-redux" ||
+                                x.name === "react-crud-app" ||
+                                x.name === "google-clone-react" ||
+                                x.name === "netflix-clone-react" ||
+                                x.name === "twitter-clone-react",
                         ).map(repo => (
                             <RepoCard key={repo.id} name={repo.name} desc={repo.description} url={repo.html_url} stars={repo.stargazers_count} language={repo.language} forks={repo.forks_count} topics={repo.topics} />
                         ))}
