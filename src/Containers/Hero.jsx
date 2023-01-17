@@ -39,9 +39,9 @@ const Hero = () => {
             <Button>
               {" "}
               <a
-                href="https://drive.google.com/file/d/1N8zpr4M_I19cniG3gZq5kZSC-o7N_ZIo/view"
+                href="/emrekara-cv.pdf"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 {" "}
                 <span className="text-xl"> 🖨 </span>Checkout my resume!
