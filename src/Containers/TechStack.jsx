@@ -6,20 +6,18 @@ import { JackInTheBox } from "react-awesome-reveal";
 // Icons
 import {
   IoLogoJavascript,
-  IoLogoReact,
   IoLogoHtml5,
   IoLogoCss3,
   IoLogoSass,
 } from "react-icons/io5";
 import {
   SiTailwindcss,
-  SiBootstrap,
-  SiJquery,
   SiNextdotjs,
   SiRedux,
   SiTypescript,
   SiNodedotjs,
   SiMongodb,
+  SiReact,
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -49,12 +47,7 @@ const TechStack = () => {
               </span>
               Sass
             </li>
-            <li className="tech-item">
-              <span>
-                <SiBootstrap className="text-purple-500 mr-2" />
-              </span>
-              Bootstrap
-            </li>
+            
             <li className="tech-item">
               <span>
                 <SiTailwindcss className="text-blue-400 mr-2" />
@@ -76,7 +69,7 @@ const TechStack = () => {
             </li>
             <li className="tech-item">
               <span>
-                <IoLogoReact className="text-blue-400 mr-2" />
+                <SiReact className="text-sky-500 mr-2" />
               </span>
               React.js
             </li>
@@ -91,6 +84,12 @@ const TechStack = () => {
                 <SiRedux className="text-purple-400 mr-2 text-xl" />
               </span>
               Redux
+            </li>
+            <li className="tech-item">
+              <span>
+                <SiReact className="text-sky-500 mr-2" />
+              </span>
+              React Native
             </li>
             <li className="tech-item">
               <span>
