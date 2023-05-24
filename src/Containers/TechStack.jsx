@@ -4,12 +4,7 @@ import "../Styles/Containers/TechStack.css";
 import { JackInTheBox } from "react-awesome-reveal";
 
 // Icons
-import {
-  IoLogoJavascript,
-  IoLogoHtml5,
-  IoLogoCss3,
-  IoLogoSass,
-} from "react-icons/io5";
+import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoSass } from "react-icons/io5";
 import {
   SiTailwindcss,
   SiNextdotjs,
@@ -24,9 +19,7 @@ const TechStack = () => {
   return (
     <div className="bg-secondary" id="tech-stack">
       <div className="container lg:px-48 py-14">
-        <h2 className="text-4xl text-textColor2 font-bold text-center">
-          Tech Stack
-        </h2>
+        <h2 className="text-4xl text-textColor2 font-bold text-center">Tech Stack</h2>
         <ul className="tech-items">
           <JackInTheBox triggerOnce duration={1000}>
             <li className="tech-item">
@@ -47,7 +40,7 @@ const TechStack = () => {
               </span>
               Sass
             </li>
-            
+
             <li className="tech-item">
               <span>
                 <SiTailwindcss className="text-blue-400 mr-2" />
@@ -89,7 +82,7 @@ const TechStack = () => {
               <span>
                 <SiReact className="text-sky-500 mr-2" />
               </span>
-              React Native
+              ReactNative
             </li>
             <li className="tech-item">
               <span>
