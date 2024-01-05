@@ -17,7 +17,7 @@
         transition: visibility 350ms ease, opacity 400ms ease, transform 500ms ease-in-out;
 }
 
-header{
+.header{
     @apply
     h-16 
     pl-5
@@ -34,5 +34,5 @@ header{
     md:bg-transparent 
     md:static 
     md:w-auto
-    lg:pl-0
+    xl:pl-0
  }

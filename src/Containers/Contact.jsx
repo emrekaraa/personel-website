@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className="bg-secondary" id="contact">
       <Zoom triggerOnce>
-        <div className="container lg:px-48 pt-14 pb-8 flex flex-col items-center">
+        <div className="container xl:px-48 pt-14 pb-8 flex flex-col items-center">
           <h2 className="text-4xl text-textColor2 font-bold text-center">
             Get In Touch
           </h2>

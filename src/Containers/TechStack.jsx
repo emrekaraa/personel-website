@@ -18,7 +18,7 @@ import {
 const TechStack = () => {
   return (
     <div className="bg-secondary" id="tech-stack">
-      <div className="container lg:px-48 py-14">
+      <div className="container xl:px-48 py-14">
         <h2 className="text-4xl text-textColor2 font-bold text-center">Tech Stack</h2>
         <ul className="tech-items">
           <JackInTheBox triggerOnce duration={1000}>

@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-primary">
-      <div className="container md:px-48 py-10 flex flex-col items-center lg:block">
+      <div className="container md:px-48 py-10 flex flex-col items-center xl:block">
         <h4 className="text-sm flex items-center">
           Don't forget to follow me{" "}
           <UseAnimations

@@ -14,7 +14,7 @@ const RepoCard = ({ name, desc, url, stars, language, forks, topics }) => {
         <>
             <a href={`${url}`} className='repo-card'>
                 <h3 className={`text-lg font-bold flex items-center text-textColor4`}>{name}<span className='ml-2'><GoLinkExternal /></span></h3>
-                <p className='text-sm mt-2 lg:min-h-[45px]'>{desc}</p>
+                <p className='text-sm mt-2 xl:min-h-[45px]'>{desc}</p>
                 <div className='mt-2 flex flex-wrap'>{topics.map((topic) => {
                     return <span key={topic} className='topic'>{topic}</span>
                 })}</div>
